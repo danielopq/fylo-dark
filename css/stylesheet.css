@@ -1,3 +1,94 @@
 @charset "utf-8";
-/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*############################## GENERAL ##############################*/
+
+body{
+	padding:0px;
+	margin:0px;
+	width: 100vw;
+	height: 100%;
+	align-items: center;
+	background-color: hsl(218, 28%, 13%);
+}
+
+.flexRow{
+	display: flex;
+	flex-direction: row;
+}
+
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+}
+
+/*############################## MENU ##############################*/
+
+menu{
+	width: 1280px;
+	height: 52px;
+	margin-top: 70px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#menu-logo{
+	height: inherit;
+	width: 176px;
+	background: url("../images/logo.svg") center/176px no-repeat;
+}
+
+#menu-links{
+	height: inherit;
+}
+
+#menu-links{
+
+}
+
+#menu-links p{
+	font: 400 16px 'Raleway';
+	color:white;
+	margin: auto 0px 55px 55px;
+}
+
+/*############################## GET STARTED ##############################*/
+
+#getStarted{
+	width: 700px;
+	height: 850px;
+	background: url("../images/illustration-intro.png") top/700px no-repeat;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+	margin-top: 75px;
+	color: white;
+}
+
+#getStarted-title{
+	font: 700 40px/1.6 'Raleway';
+	margin-bottom: 0px;
+}
+
+#getStarted-text{
+	font: 400 23px 'Open Sans';
+}
+
+#getStarted-bt{
+	width: 280px;
+	height: 55px;
+	text-align: center;
+	font: 700 16px/55px 'Raleway';
+	background-color: hsl(176, 68%, 64%);
+	border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
 
