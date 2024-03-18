@@ -268,10 +268,9 @@ header{
 }
 .profile-details{
 	height: 30px;
-	margin-left: 10px;
 }
 .profile-details p{
-	margin-top: 0px;
+	margin: auto auto 0px 10px;
 }
 .profile-name{
 	font: 700 12px/1.2 'Raleway';
