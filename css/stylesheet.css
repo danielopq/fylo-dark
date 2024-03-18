@@ -257,7 +257,7 @@ header{
 }
 .profile{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; 
 	align-content: center;
 	margin-top: 20px;
 }
@@ -281,10 +281,24 @@ header{
 }
 
 
+/*############################## FOOTER ##############################*/
 
+footer{
+	width: 1440px;
+	height: 500px;
+	align-items: center;
+	background-color: hsl(216, 53%, 9%);
+}
 
-
-
+#getAccess{
+	width: 860px;
+	height: 280px;
+	position:absolute;
+	z-index: 100;
+	top: 2830px;
+	border-radius: 5px;
+	background-color: hsl(217, 28%, 15%); 
+}
 
 
 
