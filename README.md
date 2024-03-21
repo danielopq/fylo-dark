@@ -13,7 +13,7 @@
 
 ## Overview
 
-Responsive Frontend development for a cloud storage company. It is optimized for desktop (1440px) and mobile users (480px). The elements have been set according to the images provided. Built with HTML, CSS and JavaScript. No frameworks were used.
+Responsive Frontend development for a cloud storage company. It is optimized for desktop (1440px) and mobile (375-480px). The elements have been set according to the images provided. Built with HTML, CSS and JavaScript. No frameworks were used.
 
 ### Screenshot
 
@@ -23,7 +23,7 @@ Responsive Frontend development for a cloud storage company. It is optimized for
 
 ### Links
 
-- Live Site URL: [https://danielmartinez.co.uk/lfylo-dark]
+- Live Site URL: [https://danielmartinez.co.uk/projects/fylo-dark]
 
 ## My process
 
