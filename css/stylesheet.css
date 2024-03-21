@@ -1,42 +1,36 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 /*############################## GENERAL ##############################*/
-
-body{
-	padding:0px;
-	margin:0px;
+body {
+	padding: 0px;
+	margin: 0px;
 	width: 100vw;
 	height: 100%;
 	align-items: center;
 	justify-content: flex-start;
 }
-
-p{
+p {
 	margin-bottom: 0px;
 }
-menu{
+menu {
 	padding: 0px;
 }
-input:focus{
+input:focus {
 	outline: none;
 }
-
-.flexRow{
+.flexRow {
 	display: flex;
 	flex-direction: row;
 }
-
-.flexColumn{
+.flexColumn {
 	display: flex;
 	flex-direction: column;
 }
-
 /*############################## MENU ##############################*/
-body > div{
+body > div {
 	width: 1440px;
 }
-menu{
+menu {
 	width: 1280px;
 	height: 52px;
 	margin-top: 70px;
@@ -44,36 +38,33 @@ menu{
 	justify-content: space-between;
 	background-color: hsl(216, 53%, 9%);
 }
-
-#menu-logo{
+#menu-logo {
 	height: inherit;
 	width: 176px;
 	background: url("../images/logo.svg") center/176px no-repeat;
 }
-
-#menu-links{
+#menu-links {
 	justify-content: space-between;
 	width: 360px;
 	height: 52px;
 }
-#menu-links > div{
-	width: 70px;
+#menu-links > div {
+	width: 80px;
 }
-#menu-links p{
+#menu-links p {
 	width: auto;
 	height: 48px;
 	margin: auto 5px auto 5px;
 	font: 400 16px/52px 'Raleway';
-	color:white;
+	color: white;
 }
-#menu-links p:hover{
-	cursor:pointer;
+#menu-links p:hover {
+	cursor: pointer;
 	font-weight: 700;
 	text-decoration: underline;
 }
 /*############################## GET STARTED ##############################*/
-
-header{
+header {
 	width: 1440px;
 	height: 1300px;
 	background: url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
@@ -83,26 +74,22 @@ header{
 	color: white;
 	background-color: hsl(216, 53%, 9%);
 }
-
-#header-pic{
+#header-pic {
 	width: 700px;
 	height: 540px;
 	background: url("../images/illustration-intro.png") top/700px no-repeat;
 	margin-top: 55px;
 }
-
-#header-title{
+#header-title {
 	width: 700px;
 	font: 700 40px/1.6 'Raleway';
 	margin-bottom: 0px;
 }
-
-#header-text{
+#header-text {
 	width: 700px;
 	font: 400 23px 'Open Sans';
 }
-
-#getStarted-bt{
+#getStarted-bt {
 	width: 280px;
 	height: 55px;
 	text-align: center;
@@ -111,101 +98,94 @@ header{
 	border-radius: 30px;
 	margin-top: 30px;
 }
-#getStarted-bt:hover{
-	cursor:pointer;
-	background-color: hsla(176, 68%, 64%,0.9);
+#getStarted-bt:hover {
+	cursor: pointer;
+	background-color: hsla(176, 68%, 64%, 0.9);
 }
 /*############################## ADVANTAGES ##############################*/
-
-#advantages{
+#advantages {
 	height: 600px;
-	display:grid;
+	display: grid;
 	align-items: center;
 	justify-content: center;
 	grid-template-rows: 210px 210px;
 	grid-template-columns: 380px 380px;
 	grid-template-areas: "access security"
-						"collaboration store";
+		"collaboration store";
 	grid-row-gap: 80px;
 	grid-column-gap: 120px;
 	background-color: hsl(218, 28%, 13%);
-	color:white;
+	color: white;
 	text-align: center;
 }
-
-#advantages > div{
+#advantages > div {
 	width: 380px;
 }
-
-#advantages p[class= "adv-title"]{
+#advantages p[class="adv-title"] {
 	margin-top: 30px;
 }
-
-#advantages-access{
+#advantages-access {
 	grid-area: access;
 }
-#access-pic{
+#access-pic {
 	background: url("../images/icon-access-anywhere.svg") center/83px no-repeat;
 }
-#advantages-security{
+#advantages-security {
 	grid-area: security;
 }
-#security-pic{
+#security-pic {
 	background: url("../images/icon-security.svg") center/70px no-repeat;
 }
-#advantages-collaboration{
+#advantages-collaboration {
 	grid-area: collaboration;
 }
-#collaboration-pic{
+#collaboration-pic {
 	background: url("../images/icon-collaboration.svg")center/86px no-repeat;
 }
-#advantages-store{
+#advantages-store {
 	grid-area: store;
 }
-#store-pic{
+#store-pic {
 	background: url("../images/icon-any-file.svg") center/91px no-repeat;
 }
-
-.adv-pic{
+.adv-pic {
 	height: 90px;
 }
-
-.adv-title{
+.adv-title {
 	height: 50px;
 	font: 700 20px/1 'Raleway';
 }
-
-.adv-text{
+.adv-text {
 	font: 400 14px/1.4 'Raleway';
 }
 /*############################## STAY PRODUCTIVE ##############################*/
-#stayProductive{
+#stayProductive {
 	height: 465px;
 	background-color: hsl(218, 28%, 13%);
 	justify-content: center;
 }
-#stayProductive-pic{
+#stayProductive-pic {
 	width: 615px;
 	height: inherit;
 	background: url("../images/illustration-stay-productive.png") center no-repeat;
 }
-#stayProductive-content{
+#stayProductive-content {
 	width: 615px;
 	height: inherit;
 	text-align: left;
 }
-#sp-content-title{
+#sp-content-title {
 	width: 340px;
 	font: 700 40px/1.3 'Raleway';
-	color:white;
+	color: white;
 	margin-left: 55px;
 }
-#sp-content-text{
+#sp-content-text {
 	font: 400 16px/1.5 'Raleway';
-	color:white;
+	color: white;
 	margin-left: 55px;
 }
-#sp-content-button{
+#sp-content-button {
 	width: 170px;
 	height: 25px;
 	align-items: center;
@@ -217,16 +197,14 @@ header{
 	margin-left: 55px;
 	background: url("../images/icon-arrow.svg") right/16px no-repeat;
 }
-#sp-content-button:hover{
-	cursor:pointer;
+#sp-content-button:hover {
+	cursor: pointer;
 	color: white;
 	background-image: url("../images/icon-arrow-hover.svg");
 	border-bottom-color: white;
-	
 }
 /*############################## TESTIMONIALS ##############################*/
-
-#testimonials{
+#testimonials {
 	width: 1440px;
 	height: 730px;
 	display: grid;
@@ -238,20 +216,18 @@ header{
 	grid-column-gap: 40px;
 	grid-template-areas: "testim01 testim02 testim03";
 	background-color: hsl(218, 28%, 13%);
-	color:white;
+	color: white;
 }
-
-#testim-01{
+#testim-01 {
 	grid-area: testim01;
 }
-#testim-02{
+#testim-02 {
 	grid-area: testim02;
 }
-#testim-03{
+#testim-03 {
 	grid-area: testim03;
 }
-
-.testimonial{
+.testimonial {
 	height: 200px;
 	display: flex;
 	flex-direction: column;
@@ -260,53 +236,50 @@ header{
 	border-radius: 5px;
 	margin-top: 350px;
 }
-.testimonial > div{
+.testimonial > div {
 	width: 310px;
 }
-.testimonial-text{
+.testimonial-text {
 	font: 400 15px/1.3 'Raleway';
 	margin-top: 30px;
 }
-#profile01-pic{
+#profile01-pic {
 	background: url("../images/profile-1.jpg") center/30px no-repeat;
 }
-#profile02-pic{
+#profile02-pic {
 	background: url("../images/profile-2.jpg") center/30px no-repeat;
 }
-#profile03-pic{
+#profile03-pic {
 	background: url("../images/profile-3.jpg") center/30px no-repeat;
 }
-.profile{
+.profile {
 	display: flex;
-	flex-direction: row; 
+	flex-direction: row;
 	align-content: center;
 	margin-top: 20px;
 }
-.profile-pic{
+.profile-pic {
 	height: 30px;
 	width: 30px;
 	border-radius: 15px;
 }
-.profile-details{
+.profile-details {
 	height: 30px;
 }
-.profile-details p{
+.profile-details p {
 	margin: auto auto 0px 10px;
 }
-.profile-name{
+.profile-name {
 	font: 700 12px/1.2 'Raleway';
 }
-
-.profile-position{
+.profile-position {
 	font: 400 10px/1.2 'Raleway';
 }
-
 /*############################## GET ACCESS ##############################*/
-
-#getAccess{
+#getAccess {
 	width: 860px;
 	height: 280px;
-	position:absolute;
+	position: absolute;
 	z-index: 100;
 	align-items: flex-start;
 	text-align: center;
@@ -315,58 +288,55 @@ header{
 	background-color: hsl(217, 28%, 15%);
 	color: white;
 }
-
-#getAccess-header{
+#getAccess-header {
 	font: 700 28px/1 'Raleway';
 	margin: 50px auto 0px auto;
 }
-#getAccess-text{
+#getAccess-text {
 	width: 620px;
 	font: 400 14px/1.5 'Raleway';
 	margin: 30px auto 0px auto;
 }
-#getAccess-form{
+#getAccess-form {
 	height: 45px;
 	margin: 40px auto 0px auto;
 }
-#getAccess-tf{
+#getAccess-tf {
 	width: 480px;
 	padding-left: 40px;
-	color:#c1c1c1;
+	color: #c1c1c1;
 }
-#getAccess-bt{
+#getAccess-bt {
 	width: 200px;
 	background-color: hsl(176, 68%, 64%);
 	font: 700 14px/45px 'Raleway';
 	color: white;
 }
-#getAccess-bt:hover{
-	cursor:pointer;
-	background-color: hsla(176, 68%, 64%,0.9);
+#getAccess-bt:hover {
+	cursor: pointer;
+	background-color: hsla(176, 68%, 64%, 0.9);
 }
-.form-element{
+.form-element {
 	height: 45px;
 	border-radius: 22px;
 	border: none;
 	margin: auto 15px auto 15px;
 }
-#getAcces-errorMsg{
+#getAcces-errorMsg {
 	display: none;
 	font: 700 11px/1 'Raleway';
-	color:red;
+	color: red;
 	margin: 10px 0px auto 93px;
 }
 /*############################## FOOTER ##############################*/
-
-footer{
+footer {
 	width: 1440px;
 	height: 500px;
 	align-items: center;
 	justify-content: center;
 	background-color: hsl(216, 53%, 9%);
 }
-
-#footer-info{
+#footer-info {
 	width: 1240px;
 	height: 240px;
 	display: grid;
@@ -374,130 +344,126 @@ footer{
 	grid-template-columns: 360px 215px 250px 115px;
 	grid-row-gap: 30px;
 	grid-column-gap: 100px;
-	grid-template-areas: "logo logo logo logo" "location contact links media";
-	margin-top:90px;
+	grid-template-areas: "logo logo logo logo""location contact links media";
+	margin-top: 90px;
 }
-
-#info-logo{
+#info-logo {
 	grid-area: logo;
 }
-#info-location{
-	grid-area:location;
+#info-location {
+	grid-area: location;
 	align-content: flex-start;
 	justify-content: space-between;
 }
-#info-location{
-	grid-area:location;
+#info-location {
+	grid-area: location;
 	align-content: flex-start;
 	justify-content: space-between;
 }
-#location-icon{
+#location-icon {
 	width: 13px;
 	height: 18px;
 }
-#location-text{
+#location-text {
 	font: 400 16px/1.4 'Open Sans';
-	margin-left:25px;
-	color:white;
+	margin-left: 25px;
+	color: white;
 }
-#info-contact{
-	grid-area:contact;
-	align:center;
+#info-contact {
+	grid-area: contact;
+	align: center;
 }
-#info-contact > div{
+#info-contact > div {
 	align-items: center;
-	margin: 0px 0px 20px 0px; 
+	margin: 0px 0px 20px 0px;
 }
-#info-contact p{
-	color:white;
+#info-contact p {
+	color: white;
 	font: 400 14px/1 'Open Sans';
-	margin:auto 0px auto 25px;
+	margin: auto 0px auto 25px;
 }
-#phone-img{
+#phone-img {
 	width: 18px;
 	height: 18px;
 }
-#mail-img{
+#mail-img {
 	width: 20px;
 	height: 16px;
 }
-#info-links{
-	grid-area:links;
+#info-links {
+	grid-area: links;
 	justify-content: space-between;
 }
-#info-links > div{
+#info-links > div {
 	width: 100px;
 	height: 160px;
 	text-align: left;
 }
-#info-links p{
+#info-links p {
 	color: white;
 	font: 400 16px/1 'Open Sans';
 	margin: 0px 0px 20px 0px;
 }
-#info-links p:hover{
-	cursor:pointer;
+#info-links p:hover {
+	cursor: pointer;
 	font-weight: 600;
 }
-#info-media{
-	grid-area:media;
+#info-media {
+	grid-area: media;
 	align-items: center;
 	justify-content: space-between;
 }
-
-#info-media > div{
+#info-media > div {
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
 	border: solid 1px white;
 	margin: 0px 7px auto 0px;
 }
-#info-media > div:hover{
-	cursor:pointer;
+#info-media > div:hover {
+	cursor: pointer;
 	border-color: #64E1D9;
 }
-#media-facebook{
-	background:url("../images/icon-facebook.svg") center/15px no-repeat;
+#media-facebook {
+	background: url("../images/icon-facebook.svg") center/15px no-repeat;
 }
-#media-facebook:hover{
+#media-facebook:hover {
 	background-image: url("../images/icon-facebook-hover.svg");
 }
-#media-twitter{
-	background:url("../images/icon-twitter.svg") center/15px no-repeat;
+#media-twitter {
+	background: url("../images/icon-twitter.svg") center/15px no-repeat;
 }
-#media-twitter:hover{
+#media-twitter:hover {
 	background-image: url("../images/icon-twitter-hover.svg");
 }
-#media-instagram{
-	background:url("../images/icon-instagram.svg") center/15px no-repeat;
+#media-instagram {
+	background: url("../images/icon-instagram.svg") center/15px no-repeat;
 }
-#media-instagram:hover{
+#media-instagram:hover {
 	background-image: url("../images/icon-instagram-hover.svg");
 }
 /*############################## MOBILE VERSION ##############################*/
 @media screen and (max-width: 480px) {
-	body > div{
-	max-width:480px;
-	min-width: 375px;
+	body > div {
+		width: 100vw;
 	}
-	
-menu{
-	max-width:480px;
-	min-width: 375px;
-	margin-top: 30px;
+	menu {
+		width: 100vw;
+		margin-top: 30px;
+	}
+	#menu-logo {
+		width: 80px;
+		background-size: 80px;
+		margin-left: 25px;
+	}
+	#menu-links {
+		width: 200px;
+		margin-right: 25px;
+	}
+#menu-links > div {
+	width: 55px;
 }
-
-#menu-logo{
-	width: 100px;
-	background-size: 100px;
-	background-position: left;
-	margin-left: 25px;
+#menu-links p {
+	font-size: 12px;
 }
-
-#menu-links{
-	width: 275px;
-	margin-right: 25px;
 }
-	
-}
-
