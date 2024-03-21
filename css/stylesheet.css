@@ -494,5 +494,37 @@ footer {
 	grid-template-columns: 345px;
 	grid-template-areas: "access""security""collaboration""store";
 }
+	/*-------- STAY PRODUCTIVE --------*/
+#stayProductive {
+	flex-direction: column;
+	height: 700px;
+	align-items: center;
+	justify-content:space-evenly;
+}
 
+#stayProductive-pic {
+	width: inherit;
+	height: 390px;
+	background-size: 300px;
+}
+#stayProductive-content {
+	width: 325px;
+	height: 270px;
+}
+#sp-content-title {
+	width: 325px;
+	font-size: 18px;
+	margin-left: 0px;
+}
+#sp-content-text {
+	font-size: 14px;
+	margin-left: 0px;
+}
+#sp-content-button {
+	margin-left: 0px;
+}
+	
+	
+	
+	
 }
