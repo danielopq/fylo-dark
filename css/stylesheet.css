@@ -9,6 +9,10 @@ body {
 	align-items: center;
 	justify-content: flex-start;
 }
+form {
+	margin: 0px;
+	padding: 0px;
+}
 p {
 	margin-bottom: 0px;
 }
@@ -300,6 +304,7 @@ header {
 }
 #getAccess-tf {
 	width: 480px;
+	box-sizing: border-box;
 	padding-left: 40px;
 	color: #c1c1c1;
 }
@@ -521,12 +526,13 @@ footer {
 	/*-------- TESTIMONIALS --------*/
 	#testimonials {
 		display: grid;
-		height: 1020px;
+		height: 1110px;
+		box-sizing: border-box;
 		grid-template-columns: 280px;
 		grid-template-rows: 160px 160px 160px;
 		grid-gap: 20px;
 		grid-template-areas: "testim01""testim02""testim03";
-		padding-top: 125px;
+		padding-top: 160px;
 	}
 	.testimonial {
 		height: 160px;
@@ -562,12 +568,44 @@ footer {
 	}
 	/*-------- GET ACCESS --------*/
 	#getAccess {
-		display: none;
+		width: 340px;
+		height: 350px;
+		top: 3620px;
+	}
+	#getAccess-header {
+		font-size: 18px;
+		margin: 30px auto 0px auto;
+	}
+	#getAccess-text {
+		width: 275px;
+	}
+	#getAccess-form {
+		width: 280px;
+		height: 115px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	#getAccess-form input {
+		width: 280px;
+	}
+	.form-element {
+		height: 45px;
+		border-radius: 22px;
+		border: none;
+		margin: 0px auto;
+	}
+	#getAcces-errorMsg {
+		display: block;
+		font: 700 11px/1 'Raleway';
+		color: red;
+		margin: 10px auto 0px auto;
 	}
 	/*-------- FOOTER --------*/
 	footer {
 		width: 100vw;
-		height: 900px;
+		height: 1000px;
+		justify-content: flex-start;
 	}
 	#footer-info {
 		width: 325px;
@@ -576,12 +614,7 @@ footer {
 		grid-template-columns: 325px;
 		grid-row-gap: 10px;
 		grid-template-areas: "logo""location""contact""links""media";
-		margin-top: 90px;
-	}
-	#location-text {
-		font: 400 16px/1.4 'Open Sans';
-		margin-left: 25px;
-		color: white;
+		margin-top: 210px;
 	}
 	#info-links {
 		flex-direction: column;
