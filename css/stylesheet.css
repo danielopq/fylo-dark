@@ -109,7 +109,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	grid-template-rows: 210px 210px;
-	grid-template-columns: 380px 380px;
+	grid-template-columns: 375px 375px;
 	grid-template-areas: "access security"
 		"collaboration store";
 	grid-row-gap: 80px;
@@ -118,9 +118,7 @@ header {
 	color: white;
 	text-align: center;
 }
-#advantages > div {
-	width: 380px;
-}
+
 #advantages p[class="adv-title"] {
 	margin-top: 30px;
 }
@@ -488,4 +486,13 @@ footer {
 		width: 325px;
 		font-size: 16px;
 	}
+	/*-------- ADVANTAGES --------*/
+#advantages {
+	height: 1150px;
+	padding-top: 50px;
+	grid-template-rows: 210px 210px 210px 210px;
+	grid-template-columns: 345px;
+	grid-template-areas: "access""security""collaboration""store";
+}
+
 }
