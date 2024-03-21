@@ -16,7 +16,7 @@ p{
 }
 
 input:focus{
-    outline: none;
+	outline: none;
 }
 
 .flexRow{
@@ -49,19 +49,25 @@ menu{
 }
 
 #menu-links{
-	height: inherit;
+	justify-content: space-between;
+	width: 360px;
+	height: 52px;
 }
-
-#menu-links{
-
+#menu-links > div{
+	width: 70px;
 }
-
 #menu-links p{
+	width: auto;
+	height: 48px;
+	margin: auto 5px auto 5px;
 	font: 400 16px/52px 'Raleway';
 	color:white;
-	margin: auto 0px 55px 55px;
 }
-
+#menu-links p:hover{
+	cursor:pointer;
+	font-weight: 700;
+	text-decoration: underline;
+}
 /*############################## GET STARTED ##############################*/
 
 header{
@@ -103,7 +109,10 @@ header{
 	border-radius: 30px;
 	margin-top: 30px;
 }
-
+#getStarted-bt:hover{
+	cursor:pointer;
+	background-color: hsla(176, 68%, 64%,0.9);
+}
 /*############################## ADVANTAGES ##############################*/
 
 #advantages{
@@ -204,9 +213,14 @@ header{
 	margin-top: 25px;
 	border-bottom: solid 1px hsl(176, 68%, 64%);
 	margin-left: 55px;
+	background: url("../images/icon-arrow.svg") right/16px no-repeat;
 }
-#arrow{
-	margin-left: 5px;
+#sp-content-button:hover{
+	cursor:pointer;
+	color: white;
+	background-image: url("../images/icon-arrow-hover.svg");
+	border-bottom-color: white;
+	
 }
 /*############################## TESTIMONIALS ##############################*/
 
@@ -324,6 +338,10 @@ header{
 	font: 700 14px/45px 'Raleway';
 	color: white;
 }
+#getAccess-bt:hover{
+	cursor:pointer;
+	background-color: hsla(176, 68%, 64%,0.9);
+}
 .form-element{
 	height: 45px;
 	border-radius: 22px;
@@ -331,6 +349,7 @@ header{
 	margin: auto 15px auto 15px;
 }
 #getAcces-errorMsg{
+	display: none;
 	font: 700 11px/1 'Raleway';
 	color:red;
 	margin: 10px 0px auto 93px;
@@ -389,7 +408,7 @@ footer{
 }
 #info-contact p{
 	color:white;
-	font: 400 14px/1 'Raleway';
+	font: 400 14px/1 'Open Sans';
 	margin:auto 0px auto 25px;
 }
 #phone-img{
@@ -409,11 +428,14 @@ footer{
 	height: 160px;
 	text-align: left;
 }
-
-.footer-link {
+#info-links p{
 	color: white;
-	font: 400 16px/1 'Raleway';
+	font: 400 16px/1 'Open Sans';
 	margin: 0px 0px 20px 0px;
+}
+#info-links p:hover{
+	cursor:pointer;
+	font-weight: 600;
 }
 #info-media{
 	grid-area:media;
@@ -432,11 +454,26 @@ footer{
 #media-facebook{
 	background:url("../images/icon-facebook.svg") center/15px no-repeat;
 }
+#media-facebook:hover{
+	cursor:pointer;
+	background-image: url("../images/icon-facebook-hover.svg");
+	border-color: #64E1D9;
+}
 #media-twitter{
 	background:url("../images/icon-twitter.svg") center/15px no-repeat;
 }
+#media-twitter:hover{
+	cursor:pointer;
+	background-image: url("../images/icon-twitter-hover.svg");
+	border-color: #64E1D9;
+}
 #media-instagram{
 	background:url("../images/icon-instagram.svg") center/15px no-repeat;
+}
+#media-instagram:hover{
+	cursor:pointer;
+	background-image: url("../images/icon-instagram-hover.svg");
+	border-color: #64E1D9;
 }
 
 
