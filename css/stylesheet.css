@@ -524,7 +524,7 @@ footer {
 	/*-------- TESTIMONIALS --------*/
 	#testimonials {
 		display: grid;
-		height: 1110px;
+		height: 1020px;
 		box-sizing: border-box;
 		grid-template-columns: 280px;
 		grid-template-rows: 160px 160px 160px;
@@ -568,7 +568,7 @@ footer {
 	#getAccess {
 		width: 340px;
 		height: 350px;
-		top: 3620px;
+		top: 3520px;
 	}
 	#getAccess-header {
 		font-size: 18px;
