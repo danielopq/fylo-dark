@@ -467,4 +467,25 @@ footer {
 	#menu-links p {
 		font-size: 12px;
 	}
+	/*-------- GET STARTED --------*/
+	header {
+		width: 100vw;
+		height: 800px;
+		background: url("../images/bg-curvy-mobile.svg") bottom/100vw no-repeat;
+		background-color: hsl(216, 53%, 9%);
+	}
+	#header-pic {
+		width: 325px;
+		height: 240px;
+		background: url("../images/illustration-intro.png") top/325px no-repeat;
+		margin-top: 55px;
+	}
+	#header-title {
+		width: 325px;
+		font-size: 25px;
+	}
+	#header-text {
+		width: 325px;
+		font-size: 16px;
+	}
 }
