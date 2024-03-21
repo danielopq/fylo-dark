@@ -444,6 +444,7 @@ footer {
 }
 /*############################## MOBILE VERSION ##############################*/
 @media screen and (max-width: 480px) {
+	/*-------- MENU --------*/
 	body > div {
 		width: 100vw;
 	}
@@ -460,10 +461,10 @@ footer {
 		width: 200px;
 		margin-right: 25px;
 	}
-#menu-links > div {
-	width: 55px;
-}
-#menu-links p {
-	font-size: 12px;
-}
+	#menu-links > div {
+		width: 55px;
+	}
+	#menu-links p {
+		font-size: 12px;
+	}
 }
