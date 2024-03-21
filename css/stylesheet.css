@@ -15,7 +15,9 @@ body{
 p{
 	margin-bottom: 0px;
 }
-
+menu{
+	padding: 0px;
+}
 input:focus{
 	outline: none;
 }
@@ -472,5 +474,30 @@ footer{
 #media-instagram:hover{
 	background-image: url("../images/icon-instagram-hover.svg");
 }
+/*############################## MOBILE VERSION ##############################*/
+@media screen and (max-width: 480px) {
+	body > div{
+	max-width:480px;
+	min-width: 375px;
+	}
+	
+menu{
+	max-width:480px;
+	min-width: 375px;
+	margin-top: 30px;
+}
 
+#menu-logo{
+	width: 100px;
+	background-size: 100px;
+	background-position: left;
+	margin-left: 25px;
+}
+
+#menu-links{
+	width: 275px;
+	margin-right: 25px;
+}
+	
+}
 
