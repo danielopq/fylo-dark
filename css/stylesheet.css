@@ -36,10 +36,18 @@ input:focus {
 	display: flex;
 	flex-direction: column;
 }
-/*############################## MENU ##############################*/
-main > div {
+/*############################## HEADER ##############################*/
+header {
 	width: 1440px;
+	height: 1300px;
+	background: url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	color: white;
+	background-color: hsl(216, 53%, 9%);
 }
+/*------------------- MENU -------------------*/
 menu {
 	width: 1280px;
 	height: 52px;
@@ -73,17 +81,8 @@ menu {
 	font-weight: 700;
 	text-decoration: underline;
 }
-/*############################## GET STARTED ##############################*/
-header {
-	width: 1440px;
-	height: 1300px;
-	background: url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
-	align-items: center;
-	justify-content: flex-start;
-	text-align: center;
-	color: white;
-	background-color: hsl(216, 53%, 9%);
-}
+/*------------------- GET STARTED -------------------*/
+
 #header-pic {
 	width: 700px;
 	height: 540px;
@@ -112,7 +111,11 @@ header {
 	cursor: pointer;
 	background-color: hsla(176, 68%, 64%, 0.9);
 }
-/*############################## ADVANTAGES ##############################*/
+/*############################## MAIN ##############################*/
+main > div {
+	width: 1440px;
+}
+/*------------------- ADVANTAGES -------------------*/
 #advantages {
 	height: 600px;
 	display: grid;
@@ -165,7 +168,8 @@ header {
 .adv-text {
 	font: 400 14px/1.4 'Raleway';
 }
-/*############################## STAY PRODUCTIVE ##############################*/
+
+/*------------------- STAY PRODUCTIVE -------------------*/
 #stayProductive {
 	height: 465px;
 	background-color: hsl(218, 28%, 13%);
@@ -210,7 +214,9 @@ header {
 	background-image: url("../images/icon-arrow-hover.svg");
 	border-bottom-color: white;
 }
-/*############################## TESTIMONIALS ##############################*/
+
+/*------------------- TESTIMONIALS -------------------*/
+
 #testimonials {
 	width: 1440px;
 	height: 730px;
@@ -283,7 +289,7 @@ header {
 .profile-position {
 	font: 400 10px/1.2 'Raleway';
 }
-/*############################## GET ACCESS ##############################*/
+/*------------------- GET ACCESS -------------------*/
 #getAccess {
 	width: 860px;
 	height: 280px;
