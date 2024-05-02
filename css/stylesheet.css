@@ -31,6 +31,16 @@ a:hover{
 	font-weight: 700;
 	text-decoration: underline;
 }
+input[type="button"]{
+	border:none;
+	color:white;
+	font: 700 16px/auto 'Raleway';
+	border-radius: 28px;
+	background: linear-gradient(45deg,#63E1D9,#34A0CD)
+}
+input[type="button"]:hover{
+	cursor: pointer;
+}
 .flexRow {
 	display: flex;
 	flex-direction: row;
@@ -87,17 +97,10 @@ h1 {
 }
 #getStarted-bt {
 	width: 280px;
-	height: 55px;
-	text-align: center;
-	font: 700 16px/55px 'Raleway';
-	background-color: hsl(176, 68%, 64%);
-	border-radius: 30px;
-	margin-top: 30px;
+	height: 56px;
+	margin-top: 32px;
 }
-#getStarted-bt:hover {
-	cursor: pointer;
-	background-color: hsla(176, 68%, 64%, 0.9);
-}
+
 /*############################## MAIN ##############################*/
 main > div {
 	width: 1440px;
