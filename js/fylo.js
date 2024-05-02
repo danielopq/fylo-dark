@@ -1,9 +1,13 @@
 window.onload = start;
-
+/**
+*<p>Add event listener to the "get started button"</p>
+*/
 function start(){
 	document.getElementById("getAccess-bt").addEventListener('click',validateEmail,false);
 }
-
+/**
+*<p>Checks if the email address has a valid format</p>
+*/
 function validateEmail(){
 	var regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 	if(document.getElementById("getAccess-tf").value.match(regex)){
