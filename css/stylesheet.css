@@ -1,17 +1,14 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /*############################## GENERAL ##############################*/
+*{
+	box-sizing: border-box;
+}
 body {
 	padding: 0px;
 	margin: 0px;
 	width: 100vw;
 	height: 100%;
-	align-items: center;
-	justify-content: flex-start;
-}
-main{
-	padding: 0px;
-	margin: 0px;
 	align-items: center;
 	justify-content: flex-start;
 }
@@ -22,11 +19,17 @@ form {
 p {
 	margin-bottom: 0px;
 }
-menu {
-	padding: 0px;
-}
 input:focus {
 	outline: none;
+}
+a,a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	cursor: pointer;
+	font-weight: 700;
+	text-decoration: underline;
 }
 .flexRow {
 	display: flex;
@@ -36,67 +39,51 @@ input:focus {
 	display: flex;
 	flex-direction: column;
 }
+
 /*############################## HEADER ##############################*/
 header {
 	width: 1440px;
-	height: 1300px;
-	background: url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
+	height: 1258px;
+	background: hsl(216, 53%, 9%) url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
 	align-items: center;
 	justify-content: flex-start;
 	text-align: center;
 	color: white;
-	background-color: hsl(216, 53%, 9%);
 }
 /*------------------- MENU -------------------*/
 menu {
 	width: 1280px;
 	height: 52px;
-	margin-top: 70px;
-	align-items: center;
-	justify-content: space-between;
-	background-color: hsl(216, 53%, 9%);
+	margin-top: 73px;
+	padding: 0px;
+	justify-content: flex-end;
+	background: url("../images/logo.svg") left/176px no-repeat;
 }
-#menu-logo {
-	height: inherit;
-	width: 176px;
-	background: url("../images/logo.svg") center/176px no-repeat;
-}
-#menu-links {
-	justify-content: space-between;
-	width: 360px;
-	height: 52px;
-}
-#menu-links > div {
-	width: 80px;
-}
-#menu-links p {
-	width: auto;
-	height: 48px;
-	margin: auto 5px auto 5px;
+
+menu p {
+	height: 17px;
+	margin: auto 0px auto 58px;
 	font: 400 16px/52px 'Raleway';
 	color: white;
-}
-#menu-links p:hover {
-	cursor: pointer;
-	font-weight: 700;
-	text-decoration: underline;
 }
 /*------------------- GET STARTED -------------------*/
 
 #header-pic {
-	width: 700px;
-	height: 540px;
-	background: url("../images/illustration-intro.png") top/700px no-repeat;
-	margin-top: 55px;
+	width: 720px;
+	height: 534px;
+	background: url("../images/illustration-intro.png") center/720px no-repeat;
+	margin-top: 75px;
 }
-#header-title {
-	width: 700px;
-	font: 700 40px/1.6 'Raleway';
-	margin-bottom: 0px;
+h1 {
+	width: 734px;
+	height: 120px;
+	font: 700 40px/60px 'Raleway';
+	margin: 36px 0px 0px;
 }
 #header-text {
-	width: 700px;
-	font: 400 23px 'Open Sans';
+	width: 589px;
+	height: 90px;
+	font: 400 20px/30px 'Open Sans';
 }
 #getStarted-bt {
 	width: 280px;
@@ -114,6 +101,10 @@ menu {
 /*############################## MAIN ##############################*/
 main > div {
 	width: 1440px;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	justify-content: flex-start;
 }
 /*------------------- ADVANTAGES -------------------*/
 #advantages {
