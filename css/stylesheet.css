@@ -179,9 +179,10 @@ main > div {
 
 /*------------------- STAY PRODUCTIVE -------------------*/
 #stayProductive {
-	height: 465px;
-	background-color: hsl(218, 28%, 13%);
+	height: 463px;
 	justify-content: center;
+	margin-top: 137px;
+	border: solid 1px red;
 }
 #stayProductive-pic {
 	width: 615px;
@@ -195,26 +196,40 @@ main > div {
 }
 #sp-content-title {
 	width: 340px;
-	font: 700 40px/1.3 'Raleway';
+	height: 100px;
+	font: 700 40px/50px 'Raleway';
 	color: white;
-	margin-left: 55px;
+	margin: 115px 0px 0px 57px;
+	border: solid 1px red;
 }
-#sp-content-text {
-	font: 400 16px/1.5 'Raleway';
+
+.sp-content-text {
+	width: 563px;
+	height: 48px;
+	font: 400 16px/24px 'Raleway';
 	color: white;
-	margin-left: 55px;
+	margin-left: 57px;
+	margin-bottom: 0px;
+	border: solid 1px red;
+}
+.sp-content-text-top{
+	margin-top: 19px;
+	
+}
+.sp-content-text-bottom{
+	margin-top: 16px;
 }
 #sp-content-button {
-	width: 170px;
-	height: 25px;
+	width: 166px;
+	height: 27px;
 	align-items: center;
 	justify-content: flex-start;
 	font: 400 16px/1.5 'Raleway';
 	color: hsl(176, 68%, 64%);
-	margin-top: 25px;
+	margin-top: 24px;
 	border-bottom: solid 1px hsl(176, 68%, 64%);
-	margin-left: 55px;
-	background: url("../images/icon-arrow.svg") right/16px no-repeat;
+	margin-left: 57px;
+	background: url("../images/icon-arrow.svg") right/12px no-repeat;
 }
 #sp-content-button:hover {
 	cursor: pointer;
