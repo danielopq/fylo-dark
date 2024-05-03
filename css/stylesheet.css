@@ -102,6 +102,11 @@ h1 {
 }
 
 /*############################## MAIN ##############################*/
+main{
+	align-items: center;
+	justify-content: flex-start;
+	background-color: hsl(218, 28%, 13%);
+}
 main > div {
 	width: 1440px;
 	padding: 0px;
@@ -111,17 +116,17 @@ main > div {
 }
 /*------------------- ADVANTAGES -------------------*/
 #advantages {
-	height: 600px;
+	width: 880px;
+	height: 507px;
 	display: grid;
 	align-items: center;
 	justify-content: center;
-	grid-template-rows: 210px 210px;
-	grid-template-columns: 375px 375px;
+	grid-template-rows: 214px 214px;
+	grid-template-columns: 349px 349px;
 	grid-template-areas: "access security"
 		"collaboration store";
-	grid-row-gap: 80px;
-	grid-column-gap: 120px;
-	background-color: hsl(218, 28%, 13%);
+	grid-row-gap: 79px;
+	grid-column-gap: 154px;
 	color: white;
 	text-align: center;
 }
