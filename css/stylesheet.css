@@ -130,42 +130,51 @@ main > div {
 	color: white;
 	text-align: center;
 }
-#advantages p[class="adv-title"] {
-	margin-top: 30px;
-}
 #advantages-access {
 	grid-area: access;
 }
 #access-pic {
-	background: url("../images/icon-access-anywhere.svg") center/83px no-repeat;
+	background: url("../images/icon-access-anywhere.svg") center/84px no-repeat;
 }
 #advantages-security {
 	grid-area: security;
 }
 #security-pic {
-	background: url("../images/icon-security.svg") center/70px no-repeat;
+	background: url("../images/icon-security.svg") center/66px no-repeat;
 }
 #advantages-collaboration {
 	grid-area: collaboration;
 }
 #collaboration-pic {
-	background: url("../images/icon-collaboration.svg")center/86px no-repeat;
+	background: url("../images/icon-collaboration.svg")center/84px no-repeat;
 }
 #advantages-store {
 	grid-area: store;
 }
 #store-pic {
-	background: url("../images/icon-any-file.svg") center/91px no-repeat;
+	background: url("../images/icon-any-file.svg") center/90px no-repeat;
 }
 .adv-pic {
-	height: 90px;
+	width: 104px;
+	height: 104px;
+}
+.adv-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .adv-title {
-	height: 50px;
+	width: inherit;
+	height: 23px;
 	font: 700 20px/1 'Raleway';
+	text-align: center;
+	margin: 16px 0px 0px;
 }
 .adv-text {
-	font: 400 14px/1.4 'Raleway';
+	width: inherit;
+	height: 63px;
+	font: 400 14px/21px 'Raleway';
+	margin: 8px 0px 0px;
 }
 
 /*------------------- STAY PRODUCTIVE -------------------*/
