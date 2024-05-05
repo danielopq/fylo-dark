@@ -182,7 +182,6 @@ main > div {
 	height: 463px;
 	justify-content: center;
 	margin-top: 137px;
-	border: solid 1px red;
 }
 #stayProductive-pic {
 	width: 615px;
@@ -200,7 +199,6 @@ main > div {
 	font: 700 40px/50px 'Raleway';
 	color: white;
 	margin: 115px 0px 0px 57px;
-	border: solid 1px red;
 }
 
 .sp-content-text {
@@ -210,7 +208,6 @@ main > div {
 	color: white;
 	margin-left: 57px;
 	margin-bottom: 0px;
-	border: solid 1px red;
 }
 .sp-content-text-top{
 	margin-top: 19px;
