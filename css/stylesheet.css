@@ -44,7 +44,8 @@ input[type="button"]{
 }
 input[type="button"]:hover{
 	cursor: pointer;
-	background-color: hsla(176, 68%, 64%, 0.9);
+	background:none;
+	background-color: #8ADAE3;
 }
 .flexRow {
 	display: flex;
