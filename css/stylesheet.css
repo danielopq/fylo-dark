@@ -54,7 +54,7 @@ input[type="button"]:hover{
 header {
 	width: 1440px;
 	height: 1258px;
-	background: hsl(216, 53%, 9%) url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
+	background: #1B2330 url("../images/bg-curvy-desktop.svg") bottom/1440px no-repeat;
 	align-items: center;
 	justify-content: flex-start;
 	text-align: center;
@@ -226,7 +226,7 @@ main > div {
 	margin-top: 24px;
 	border-bottom: solid 1px hsl(176, 68%, 64%);
 	margin-left: 57px;
-	background: url("../images/icon-arrow.svg") right/12px no-repeat;
+	background: url("../images/icon-arrow.svg") right/14px no-repeat;
 }
 #sp-content-button:hover {
 	cursor: pointer;
@@ -250,7 +250,7 @@ main > div {
 	grid-template-areas: "testim01 testim02 testim03";
 	background-color: hsl(218, 28%, 13%);
 	color: white;
-	background: hsl(218, 28%, 13%) url("../images/bg-quotes.png") 9% 20%/55px no-repeat;
+	background: hsl(218, 28%, 13%) url("../images/bg-quotes.png") 130px 20%/55px 48px no-repeat;
 }
 #testim-01 {
 	grid-area: testim01;
@@ -270,44 +270,49 @@ main > div {
 	border-radius: 4px;
 	margin-top: 350px;
 }
-.testimonial > div {
-	width: 310px;
+.testimonial > * {
+	width: 309px;
 }
 .testimonial-text {
-	font: 400 15px/1.3 'Raleway';
-	margin-top: 30px;
+	height: 84px;
+	font: 400 15px/21px'Raleway';
+	margin-top: 40px;
 }
 #profile01-pic {
-	background: url("../images/profile-1.jpg") center/30px no-repeat;
+	background: url("../images/profile-1.jpg") center/24px no-repeat;
 }
 #profile02-pic {
-	background: url("../images/profile-2.jpg") center/30px no-repeat;
+	background: url("../images/profile-2.jpg") center/24px no-repeat;
 }
 #profile03-pic {
-	background: url("../images/profile-3.jpg") center/30px no-repeat;
+	background: url("../images/profile-3.jpg") center/24px no-repeat;
 }
 .profile {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	margin-top: 20px;
+	margin-top: 24px;
 }
 .profile-pic {
-	height: 30px;
-	width: 30px;
+	height: 24px;
+	width: 24px;
 	border-radius: 15px;
 }
 .profile-details {
-	height: 30px;
+	height: 26px;
 }
 .profile-details p {
-	margin: auto auto 0px 10px;
+	letter-spacing: 0.5px;
 }
 .profile-name {
-	font: 700 12px/1.2 'Raleway';
+	height: 12px;
+	font: 700 10px/12px 'Raleway';
+	margin: 0px 0px 0px 8px;
 }
 .profile-position {
-	font: 400 10px/1.2 'Raleway';
+	height: 10px;
+	font: 400 7px/10px 'Raleway';
+	margin: 4px 0px 0px 8px;
 }
 /*------------------- GET ACCESS -------------------*/
 #getAccess {
