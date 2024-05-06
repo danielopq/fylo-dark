@@ -22,6 +22,10 @@ p {
 input:focus {
 	outline: none;
 }
+::placeholder{
+	color:#C0C0C0;
+	font: 400 12px/auto 'Open Sans';
+}
 a,a:visited{
 	color: white;
 	text-decoration: none;
@@ -34,12 +38,13 @@ a:hover{
 input[type="button"]{
 	border:none;
 	color:white;
-	font: 700 16px/auto 'Raleway';
+	font: 700 16px/0px 'Raleway';
 	border-radius: 28px;
 	background: linear-gradient(45deg,#63E1D9,#34A0CD)
 }
 input[type="button"]:hover{
 	cursor: pointer;
+	background-color: hsla(176, 68%, 64%, 0.9);
 }
 .flexRow {
 	display: flex;
@@ -328,33 +333,28 @@ main > div {
 	color: white;
 }
 #getAccess-header {
-	font: 700 28px/1 'Raleway';
-	margin: 50px auto 0px auto;
+	height: 48px;
+	font: 700 32px/48px 'Raleway';
+	margin: 42px auto 0px auto;
 }
 #getAccess-text {
-	width: 620px;
-	font: 400 14px/1.5 'Raleway';
-	margin: 30px auto 0px auto;
+	width: 673px;
+	height: 42px;
+	font: 400 14px/21px 'Raleway';
+	margin: 16px auto 0px auto;
 }
 #getAccess-form {
-	height: 45px;
-	margin: 40px auto 0px auto;
+	height: 48px;
+	margin: 38px auto 0px auto;
 }
 #getAccess-tf {
 	width: 480px;
-	box-sizing: border-box;
-	padding-left: 40px;
+	height: inherit;
+	padding-left: 38px;
 	color: #c1c1c1;
 }
 #getAccess-bt {
 	width: 200px;
-	background-color: hsl(176, 68%, 64%);
-	font: 700 14px/45px 'Raleway';
-	color: white;
-}
-#getAccess-bt:hover {
-	cursor: pointer;
-	background-color: hsla(176, 68%, 64%, 0.9);
 }
 .form-element {
 	height: 45px;
@@ -363,7 +363,7 @@ main > div {
 	margin: auto 15px auto 15px;
 }
 #getAcces-errorMsg {
-	font: 700 11px/1 'Raleway';
+	font: 700 10px/0px 'Open Sans';
 	margin: 10px 0px auto 93px;
 }
 /*############################## FOOTER ##############################*/
@@ -564,7 +564,6 @@ footer {
 		width: 100vw;
 		display: grid;
 		height: 1020px;
-		box-sizing: border-box;
 		grid-template-columns: 280px;
 		grid-template-rows: 160px 160px 160px;
 		grid-gap: 20px;

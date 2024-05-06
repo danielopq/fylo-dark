@@ -16,6 +16,6 @@ function validateEmail(){
 		document.getElementById("getAccess-tf").value = "";
 	}else{
 		document.getElementById("getAcces-errorMsg").style.color = "hsl(0, 100%, 63%)";
-		document.getElementById("getAcces-errorMsg").innerHTML = "Please enter a valid email address";
+		document.getElementById("getAcces-errorMsg").innerHTML = "Error, please check your email";
 	}
 }
