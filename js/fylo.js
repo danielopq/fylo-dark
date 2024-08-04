@@ -1,12 +1,15 @@
-window.onload = start;
 /**
-*<p>Add event listener to the "get started button"</p>
-*/
-function start(){
+ * @fileoverview Adds the acction to the get "starter buttton" in order to validate the email given by the user.
+ * @author Daniel Martinez Duque
+ * @date 2024-08-04
+ */
+
+(()=>{
 	document.getElementById("getAccess-bt").addEventListener('click',validateEmail,false);
-}
+})()
+
 /**
-*<p>Checks if the email address has a valid format</p>
+*Checks if the email address has a valid format.
 */
 function validateEmail(){
 	var regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
