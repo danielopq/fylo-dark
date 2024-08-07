@@ -373,7 +373,7 @@ main > div {
 /*############################## FOOTER ##############################*/
 footer {
 	width: 1440px;
-	height: 441px;
+	height: 551px;
 	align-items: center;
 	justify-content: center;
 	background-color: hsl(216, 53%, 9%);
@@ -388,7 +388,7 @@ footer {
 	grid-row-gap: 30px;
 	grid-column-gap: 100px;
 	grid-template-areas: "logo logo logo logo""location contact links media";
-	margin-top: 169px;
+	margin-top: 200px;
 }
 #info-logo {
 	grid-area: logo;
