@@ -24,7 +24,7 @@ input:focus {
 }
 ::placeholder{
 	color:#C0C0C0;
-	font: 400 12px/auto 'Open Sans';
+	font: 400 12px/1 'Open Sans';
 }
 a,a:visited{
 	color: white;
@@ -38,7 +38,6 @@ a:hover{
 input[type="button"]{
 	border:none;
 	color:white;
-	font: 700 16px/0px 'Raleway';
 	border-radius: 28px;
 	background: linear-gradient(45deg,#63E1D9,#34A0CD)
 }
@@ -107,6 +106,7 @@ h1 {
 	width: 280px;
 	height: 56px;
 	margin-top: 32px;
+	font: 700 16px/0px 'Raleway';
 }
 
 /*############################## MAIN ##############################*/
@@ -358,6 +358,7 @@ main > div {
 }
 #getAccess-bt {
 	width: 200px;
+	font: 700 14px/0px 'Raleway';
 }
 .form-element {
 	height: 45px;
