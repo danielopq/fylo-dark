@@ -126,38 +126,37 @@ main > div {
 #advantages {
 	width: 880px;
 	height: 507px;
-	display: grid;
-	align-items: center;
-	justify-content: center;
-	grid-template-rows: 214px 214px;
-	grid-template-columns: 349px 349px;
-	grid-template-areas: "access security"
-		"collaboration store";
-	grid-row-gap: 79px;
-	grid-column-gap: 154px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	color: white;
 	text-align: center;
 }
 #advantages-access {
-	grid-area: access;
+	width: 349px;
+	align-self: flex-start;
 }
 #access-pic {
 	background: url("../images/icon-access-anywhere.svg") center/84px no-repeat;
-}
+}     
 #advantages-security {
-	grid-area: security;
+	width: 384px;
+	align-self: flex-start;
 }
 #security-pic {
 	background: url("../images/icon-security.svg") center/66px no-repeat;
 }
 #advantages-collaboration {
-	grid-area: collaboration;
+	width: 363px;
+	align-self: flex-end;
 }
 #collaboration-pic {
 	background: url("../images/icon-collaboration.svg")center/84px no-repeat;
 }
 #advantages-store {
-	grid-area: store;
+	width: 363px;
+	align-self: flex-end;
 }
 #store-pic {
 	background: url("../images/icon-any-file.svg") center/90px no-repeat;
@@ -167,6 +166,7 @@ main > div {
 	height: 104px;
 }
 .adv-container {
+	height: 214px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
