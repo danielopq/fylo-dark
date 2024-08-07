@@ -68,6 +68,7 @@ header {
 }
 /*------------------- MENU -------------------*/
 menu {
+	border: solid 1px red;
 	width: 1280px;
 	height: 52px;
 	margin-top: 73px;
@@ -95,6 +96,7 @@ h1 {
 	height: 120px;
 	font: 700 40px/60px 'Raleway';
 	margin: 36px 0px 0px;
+	padding: 0px;
 }
 #header-text {
 	width: 589px;
@@ -405,7 +407,7 @@ footer {
 }
 #info-contact {
 	grid-area: contact;
-	align: center;
+	align-items: center;
 }
 #info-contact > div {
 	align-items: center;
