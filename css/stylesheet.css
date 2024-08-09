@@ -513,9 +513,9 @@ footer {
 		background-color: hsl(216, 53%, 9%);
 	}
 	#header-pic {
-		width: 1325px;
+		width: 225px;
 		height: 240px;
-		background: url("../images/illustration-intro.png") top/325px no-repeat;
+		background: url("../images/illustration-intro.png") top/225px no-repeat;
 		margin-top: 55px;
 	}
 	#header-title {
