@@ -1,9 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*############################## GENERAL ##############################*/
-*{
+* {
 	box-sizing: border-box;
 }
+
 body {
 	padding: 0px;
 	margin: 0px;
@@ -12,44 +14,55 @@ body {
 	align-items: center;
 	justify-content: flex-start;
 }
+
 form {
 	margin: 0px;
 	padding: 0px;
 }
+
 p {
 	margin-bottom: 0px;
 }
+
 input:focus {
 	outline: none;
 }
-::placeholder{
-	color:#C0C0C0;
+
+::placeholder {
+	color: #C0C0C0;
 	font: 400 12px/1 'Open Sans';
 }
-a,a:visited{
+
+a,
+a:visited {
 	color: white;
 	text-decoration: none;
 }
-a:hover{
+
+a:hover {
 	cursor: pointer;
 	font-weight: 700;
 	text-decoration: underline;
 }
-input[type="button"]{
-	border:none;
-	color:white;
+
+input[type="button"] {
+	border: none;
+	color: white;
 	border-radius: 28px;
-	background: linear-gradient(45deg,#63E1D9,#34A0CD)
+	background: linear-gradient(45deg, #63E1D9, #34A0CD)
 }
-input[type="button"]:hover{
+
+input[type="button"]:hover {
 	cursor: pointer;
-	background:none;
+	background: none;
 	background-color: #8ADAE3;
 }
+
 .flexRow {
 	display: flex;
 	flex-direction: row;
 }
+
 .flexColumn {
 	display: flex;
 	flex-direction: column;
@@ -65,6 +78,7 @@ header {
 	text-align: center;
 	color: white;
 }
+
 /*------------------- MENU -------------------*/
 menu {
 	width: 1280px;
@@ -81,6 +95,7 @@ menu p {
 	font: 400 16px/52px 'Raleway';
 	color: white;
 }
+
 /*------------------- GET STARTED -------------------*/
 
 #header-pic {
@@ -89,6 +104,7 @@ menu p {
 	background: url("../images/illustration-intro.png") center/720px no-repeat;
 	margin-top: 75px;
 }
+
 h1 {
 	width: 734px;
 	height: 120px;
@@ -96,11 +112,13 @@ h1 {
 	margin: 36px 0px 0px;
 	padding: 0px;
 }
+
 #header-text {
 	width: 589px;
 	height: 90px;
 	font: 400 20px/30px 'Open Sans';
 }
+
 #getStarted-bt {
 	width: 280px;
 	height: 56px;
@@ -109,18 +127,20 @@ h1 {
 }
 
 /*############################## MAIN ##############################*/
-main{
+main {
 	align-items: center;
 	justify-content: flex-start;
 	background-color: hsl(218, 28%, 13%);
 }
-main > div {
+
+main>div {
 	width: 1440px;
 	padding: 0px;
 	margin: 0px;
 	align-items: center;
 	justify-content: flex-start;
 }
+
 /*------------------- ADVANTAGES -------------------*/
 #advantages {
 	width: 880px;
@@ -132,44 +152,55 @@ main > div {
 	color: white;
 	text-align: center;
 }
+
 #advantages-access {
 	width: 349px;
 	align-self: flex-start;
 }
+
 #access-pic {
 	background: url("../images/icon-access-anywhere.svg") center/84px no-repeat;
-}     
+}
+
 #advantages-security {
 	width: 384px;
 	align-self: flex-start;
 }
+
 #security-pic {
 	background: url("../images/icon-security.svg") center/66px no-repeat;
 }
+
 #advantages-collaboration {
 	width: 363px;
 	align-self: flex-end;
 }
+
 #collaboration-pic {
 	background: url("../images/icon-collaboration.svg")center/84px no-repeat;
 }
+
 #advantages-store {
 	width: 363px;
 	align-self: flex-end;
 }
+
 #store-pic {
 	background: url("../images/icon-any-file.svg") center/90px no-repeat;
 }
+
 .adv-pic {
 	width: 104px;
 	height: 104px;
 }
+
 .adv-container {
 	height: 214px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 .adv-title {
 	width: inherit;
 	height: 23px;
@@ -177,6 +208,7 @@ main > div {
 	text-align: center;
 	margin: 16px 0px 0px;
 }
+
 .adv-text {
 	width: inherit;
 	height: 63px;
@@ -190,16 +222,19 @@ main > div {
 	justify-content: center;
 	margin-top: 137px;
 }
+
 #stayProductive-pic {
 	width: 615px;
 	height: inherit;
 	background: url("../images/illustration-stay-productive.png") center no-repeat;
 }
+
 #stayProductive-content {
 	width: 615px;
 	height: inherit;
 	text-align: left;
 }
+
 #sp-content-title {
 	width: 340px;
 	height: 100px;
@@ -216,13 +251,16 @@ main > div {
 	margin-left: 57px;
 	margin-bottom: 0px;
 }
-.sp-content-text-top{
+
+.sp-content-text-top {
 	margin-top: 19px;
-	
+
 }
-.sp-content-text-bottom{
+
+.sp-content-text-bottom {
 	margin-top: 16px;
 }
+
 #sp-content-button {
 	width: 166px;
 	height: 27px;
@@ -235,6 +273,7 @@ main > div {
 	margin-left: 57px;
 	background: url("../images/icon-arrow.svg") right/14px no-repeat;
 }
+
 #sp-content-button:hover {
 	cursor: pointer;
 	color: white;
@@ -259,15 +298,19 @@ main > div {
 	color: white;
 	background: hsl(218, 28%, 13%) url("../images/bg-quotes.png") 130px 20%/55px 48px no-repeat;
 }
+
 #testim-01 {
 	grid-area: testim01;
 }
+
 #testim-02 {
 	grid-area: testim02;
 }
+
 #testim-03 {
 	grid-area: testim03;
 }
+
 .testimonial {
 	height: 200px;
 	display: flex;
@@ -277,50 +320,62 @@ main > div {
 	border-radius: 4px;
 	margin-top: 350px;
 }
-.testimonial > * {
+
+.testimonial>* {
 	width: 309px;
 }
+
 .testimonial-text {
 	height: 84px;
 	font: 400 15px/21px'Raleway';
 	margin-top: 40px;
 }
+
 #profile01-pic {
 	background: url("../images/profile-1.jpg") center/24px no-repeat;
 }
+
 #profile02-pic {
 	background: url("../images/profile-2.jpg") center/24px no-repeat;
 }
+
 #profile03-pic {
 	background: url("../images/profile-3.jpg") center/24px no-repeat;
 }
+
 .profile {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-top: 24px;
 }
+
 .profile-pic {
 	height: 24px;
 	width: 24px;
 	border-radius: 15px;
 }
+
 .profile-details {
 	height: 26px;
 }
+
 .profile-details p {
 	letter-spacing: 0.5px;
 }
+
 .profile-name {
 	height: 12px;
 	font: 700 10px/12px 'Raleway';
 	margin: 0px 0px 0px 8px;
 }
+
 .profile-position {
 	height: 10px;
 	font: 400 7px/10px 'Raleway';
 	margin: 4px 0px 0px 8px;
 }
+
 /*------------------- GET ACCESS -------------------*/
 #getAccess {
 	width: 863px;
@@ -334,41 +389,49 @@ main > div {
 	background-color: hsl(217, 28%, 15%);
 	color: white;
 }
+
 #getAccess-header {
 	height: 48px;
 	font: 700 32px/48px 'Raleway';
 	margin: 42px auto 0px auto;
 }
+
 #getAccess-text {
 	width: 673px;
 	height: 42px;
 	font: 400 14px/21px 'Raleway';
 	margin: 16px auto 0px auto;
 }
+
 #getAccess-form {
 	height: 48px;
 	margin: 38px auto 0px auto;
 }
+
 #getAccess-tf {
 	width: 480px;
 	height: inherit;
 	padding-left: 38px;
 	color: #c1c1c1;
 }
+
 #getAccess-bt {
 	width: 200px;
 	font: 700 14px/0px 'Raleway';
 }
+
 .form-element {
 	height: 45px;
 	border-radius: 22px;
 	border: none;
 	margin: auto 15px auto 15px;
 }
+
 #getAcces-errorMsg {
 	font: 700 10px/0px 'Open Sans';
 	margin: 10px 0px auto 93px;
 }
+
 /*############################## FOOTER ##############################*/
 footer {
 	width: 1440px;
@@ -377,6 +440,7 @@ footer {
 	justify-content: center;
 	background-color: hsl(216, 53%, 9%);
 }
+
 #footer-info {
 	width: 1240px;
 	height: 240px;
@@ -385,126 +449,147 @@ footer {
 	grid-template-columns: 360px 215px 250px 115px;
 	grid-row-gap: 30px;
 	grid-column-gap: 100px;
-	grid-template-areas: "logo logo logo logo""location contact links media";
+	grid-template-areas: "logo logo logo logo" "location contact links media";
 	margin-top: 169px;
 }
+
 #info-logo {
 	grid-area: logo;
 }
+
 #info-location {
 	grid-area: location;
 	align-content: flex-start;
 	justify-content: space-between;
 }
+
 #location-icon {
 	width: 13px;
 	height: 18px;
 }
+
 #location-text {
 	font: 400 16px/1.4 'Open Sans';
 	margin-left: 25px;
 	color: white;
 }
+
 #info-contact {
 	grid-area: contact;
 	align-items: flex-start;
 }
-#info-contact > div {
+
+#info-contact>div {
 	align-items: center;
 	margin: 0px 0px 20px 0px;
 }
+
 #info-contact p {
 	color: white;
 	font: 400 14px/1 'Open Sans';
 	margin: auto 0px auto 25px;
 }
+
 #phone-img {
 	width: 18px;
 	height: 18px;
 }
+
 #mail-img {
 	width: 20px;
 	height: 16px;
 }
+
 #info-links {
 	grid-area: links;
 	justify-content: space-between;
 }
-#info-links > div {
+
+#info-links>div {
 	width: 100px;
 	height: 160px;
 	text-align: left;
 }
+
 #info-links p {
 	color: white;
 	font: 400 16px/1 'Open Sans';
 	margin: 0px 0px 20px 0px;
 }
+
 #info-links p:hover {
 	cursor: pointer;
 	font-weight: 600;
 }
+
 #info-media {
 	grid-area: media;
 	align-items: center;
 	justify-content: space-between;
 }
-#info-media > div {
+
+#info-media>div {
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
 	border: solid 1px white;
 	margin: 0px 7px auto 0px;
 }
-#info-media > div:hover {
+
+#info-media>div:hover {
 	cursor: pointer;
 	border-color: #64E1D9;
 }
+
 #media-facebook {
 	background: url("../images/icon-facebook.svg") center/15px no-repeat;
 }
+
 #media-facebook:hover {
 	background-image: url("../images/icon-facebook-hover.svg");
 }
+
 #media-twitter {
 	background: url("../images/icon-twitter.svg") center/15px no-repeat;
 }
+
 #media-twitter:hover {
 	background-image: url("../images/icon-twitter-hover.svg");
 }
+
 #media-instagram {
 	background: url("../images/icon-instagram.svg") center/15px no-repeat;
 }
+
 #media-instagram:hover {
 	background-image: url("../images/icon-instagram-hover.svg");
 }
+
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
 @media screen and (max-width: 480px) {
+
 	/*-------- MENU --------*/
-	main > div {
+	main>div {
 		width: 100vw;
 	}
+
 	menu {
-		width: 100vw;
-		margin-top: 30px;
+		width: calc(100vw - 48px);
+		height: 24px;
+		margin-top: 24px;
+		padding: 0px;
+		background: url("../images/logo.svg") left/80px no-repeat;
+		align-items: center;
 	}
-	#menu-logo {
-		width: 80px;
-		background-size: 80px;
-		margin-left: 25px;
+
+	menu p {
+		margin: 0px 0px 0px 24px;
+		padding: 0px;
+		font: 400 12px/12px 'Raleway';
 	}
-	#menu-links {
-		width: 200px;
-		margin-right: 25px;
-	}
-	#menu-links > div {
-		width: 55px;
-	}
-	#menu-links p {
-		font-size: 12px;
-	}
+
 	/*-------- GET STARTED --------*/
 	header {
 		width: 100vw;
@@ -512,28 +597,33 @@ footer {
 		background: url("../images/bg-curvy-mobile.svg") bottom/100vw no-repeat;
 		background-color: hsl(216, 53%, 9%);
 	}
+
 	#header-pic {
 		width: 225px;
 		height: 240px;
 		background: url("../images/illustration-intro.png") top/225px no-repeat;
 		margin-top: 55px;
 	}
+
 	#header-title {
 		width: 325px;
 		font-size: 25px;
 	}
+
 	#header-text {
 		width: 325px;
 		font-size: 16px;
 	}
+
 	/*-------- ADVANTAGES --------*/
 	#advantages {
 		height: 1150px;
 		padding-top: 50px;
 		grid-template-rows: 210px 210px 210px 210px;
 		grid-template-columns: 345px;
-		grid-template-areas: "access""security""collaboration""store";
+		grid-template-areas: "access" "security" "collaboration" "store";
 	}
+
 	/*-------- STAY PRODUCTIVE --------*/
 	#stayProductive {
 		flex-direction: column;
@@ -541,27 +631,33 @@ footer {
 		align-items: center;
 		justify-content: space-evenly;
 	}
+
 	#stayProductive-pic {
 		width: inherit;
 		height: 390px;
 		background-size: 300px;
 	}
+
 	#stayProductive-content {
 		width: 325px;
 		height: 270px;
 	}
+
 	#sp-content-title {
 		width: 325px;
 		font-size: 18px;
 		margin-left: 0px;
 	}
+
 	#sp-content-text {
 		font-size: 14px;
 		margin-left: 0px;
 	}
+
 	#sp-content-button {
 		margin-left: 0px;
 	}
+
 	/*-------- TESTIMONIALS --------*/
 	#testimonials {
 		width: 100vw;
@@ -570,26 +666,31 @@ footer {
 		grid-template-columns: 280px;
 		grid-template-rows: 160px 160px 160px;
 		grid-gap: 20px;
-		grid-template-areas: "testim01""testim02""testim03";
+		grid-template-areas: "testim01" "testim02" "testim03";
 		padding-top: 160px;
 		background-position: 23% 14.5%;
 		background-size: 20px;
 	}
+
 	.testimonial {
 		height: 160px;
 		margin-top: 0px;
 	}
-	.testimonial > div {
+
+	.testimonial>div {
 		width: 240px;
 	}
+
 	.testimonial-text {
 		font-size: 10px;
 		line-height: 1.7;
 		margin-top: 10px;
 	}
+
 	.profile {
 		margin-top: 20px;
 	}
+
 	.profile-pic {
 		background-size: 25px;
 		height: 25px;
@@ -597,29 +698,36 @@ footer {
 		border-radius: 12px;
 		margin-right: 10px;
 	}
+
 	.profile-details {
 		height: 30px;
 	}
+
 	.profile-name {
 		font-size: 10px;
 		line-height: 1.8;
 	}
+
 	.profile-position {
 		font-size: 10px;
 	}
+
 	/*-------- GET ACCESS --------*/
 	#getAccess {
 		width: 340px;
 		height: 350px;
 		top: 3520px;
 	}
+
 	#getAccess-header {
 		font-size: 18px;
 		margin: 30px auto 0px auto;
 	}
+
 	#getAccess-text {
 		width: 275px;
 	}
+
 	#getAccess-form {
 		width: 280px;
 		height: 115px;
@@ -627,42 +735,50 @@ footer {
 		flex-direction: column;
 		justify-content: space-between;
 	}
+
 	#getAccess-form input {
 		width: 280px;
 	}
+
 	.form-element {
 		height: 45px;
 		border-radius: 22px;
 		border: none;
 		margin: 0px auto;
 	}
+
 	#getAcces-errorMsg {
 		margin: 10px auto 0px auto;
 	}
+
 	/*-------- FOOTER --------*/
 	footer {
 		width: 100vw;
 		height: 1000px;
 		justify-content: flex-start;
 	}
+
 	#footer-info {
 		width: 325px;
 		height: 700px;
 		grid-template-rows: 80px 100px 130px 320px 160px;
 		grid-template-columns: 325px;
 		grid-row-gap: 10px;
-		grid-template-areas: "logo""location""contact""links""media";
+		grid-template-areas: "logo" "location" "contact" "links" "media";
 		margin-top: 210px;
 	}
+
 	#info-links {
 		flex-direction: column;
 	}
+
 	#info-media {
 		width: 120px;
 		height: 32px;
 		margin: 0px auto;
 	}
-	#info-media > div {
+
+	#info-media>div {
 		margin: 0px 5px auto 5px;
 	}
 }
