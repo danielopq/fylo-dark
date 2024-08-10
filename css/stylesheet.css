@@ -599,20 +599,31 @@ footer {
 	}
 
 	#header-pic {
-		width: 225px;
+		width: 304px;
 		height: 240px;
-		background: url("../images/illustration-intro.png") top/225px no-repeat;
+		background: url("../images/illustration-intro.png") top/304px no-repeat;
 		margin-top: 55px;
 	}
 
-	#header-title {
-		width: 325px;
-		font-size: 25px;
+	h1 {
+		width: 320px;
+		height: 108px;
+		font: 700 24px/36px 'Raleway';
+		margin: 33px 0px 0px;
 	}
 
 	#header-text {
-		width: 325px;
-		font-size: 16px;
+		width: 296px;
+		height: 84px;
+		font: 400 14px/21px 'Open Sans';
+		margin-top: 15px;
+	}
+
+	#getStarted-bt {
+		width: 240px;
+		height: 48px;
+		margin-top: 32px;
+		font-size: 14px;
 	}
 
 	/*-------- ADVANTAGES --------*/
