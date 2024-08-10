@@ -626,51 +626,59 @@ footer {
 		margin-top: 32px;
 		font-size: 14px;
 	}
-/*------------------- ADVANTAGES -------------------*/
-#advantages {
-	width: 320px;
-	height: 1036px;
-	justify-content: flex-start;
-}
 
-.adv-pic {
-	width: 90px;
-	height: 90px;
-	background-size: 80px 80px;
-}
+	/*------------------- ADVANTAGES -------------------*/
+	#advantages {
+		width: 320px;
+		height: 1036px;
+		justify-content: flex-start;
+	}
 
-.adv-container {
-	height: 214px;
-	width: 320px !important;
-	align-self: flex-start !important;
-}
+	.adv-pic {
+		width: 90px;
+		height: 90px;
+		background-size: 80px 80px;
+	}
 
-.adv-text {
-	height: 63px;
-}
+	.adv-container {
+		height: 214px;
+		width: 320px !important;
+		align-self: flex-start !important;
+	}
+
+	.adv-text {
+		height: 63px;
+	}
+
 	/*-------- STAY PRODUCTIVE --------*/
+
 	#stayProductive {
+		width: calc(100vw - 48px);
+		height: 500px;
 		flex-direction: column;
-		height: 700px;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: flex-start;
 	}
 
 	#stayProductive-pic {
 		width: inherit;
-		height: 390px;
-		background-size: 300px;
+		height: 329px;
+		background-size:contain;
 	}
 
 	#stayProductive-content {
-		width: 325px;
-		height: 270px;
+		width: inherit;
+		height: 347px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	#sp-content-title {
-		width: 325px;
-		font-size: 18px;
-		margin-left: 0px;
+		width: inherit;
+		height: 50px;
+		font: 700 24px/24px 'Raleway';
+		text-align: center;
+		margin: 48px 0px 0px 0px;
 	}
 
 	#sp-content-text {
@@ -682,7 +690,19 @@ footer {
 		margin-left: 0px;
 	}
 
+	.sp-content-text {
+		width: inherit;
+		height: 63px;
+		font: 400 14px/21px 'Raleway';
+		margin: 16px 0px 0px 0px;
+	}
+
+	#sp-content-button {
+		font: 400 12px/12px 'Raleway';
+	}
+
 	/*-------- TESTIMONIALS --------*/
+
 	#testimonials {
 		width: 100vw;
 		display: grid;
