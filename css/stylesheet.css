@@ -643,23 +643,10 @@ footer {
 	height: 214px;
 	width: 320px !important;
 	align-self: flex-start !important;
-	border: solid 1px red;
-}
-
-.adv-title {
-	width: inherit;
-	height: 23px;
-	font: 700 20px/1 'Raleway';
-	text-align: center;
-	margin: 16px 0px 0px;
 }
 
 .adv-text {
-	width: inherit;
 	height: 63px;
-	font: 400 14px/21px 'Raleway';
-	margin: 8px 0px 0px;
-	border: solid 1px red;
 }
 	/*-------- STAY PRODUCTIVE --------*/
 	#stayProductive {
