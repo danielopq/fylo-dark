@@ -1,5 +1,3 @@
-
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -7,13 +5,12 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
 
-Responsive Frontend development for a cloud storage company. Optimized for desktop (1440px) and mobile (375-480px). The elements are set according to the provided images. Built with HTML, CSS, and JavaScript. No frameworks were used.
+I initially developed the website entirely for the desktop version. Once all elements were in place and aligned with the design requirements, I adapted it for mobile by implementing responsive styling with a single CSS media query.
 
 ### Screenshot
 
@@ -37,10 +34,12 @@ I created the website entirely for the desktop version. Once all of the elements
 - Git
 - HTML
 - CSS
+- JavaScript
 
 ## Author
 
 I am a focused and dedicated professional with a strong educational foundation and hands-on experience in programming and web development. My expertise in PHP, SQL, JavaScript, HTML, CSS, JAVA and other modern web technologies enables me to build engaging, efficient, and visually appealing websites that meet both user needs and business goals.
 
-- linkedin - [www.linkedin.com/in/danielmartinezduque]
+- linkedin: [www.linkedin.com/in/danielmartinezduque]
+- Personal website: [https://danielmartinez.co.uk]
 

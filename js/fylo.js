@@ -1,17 +1,15 @@
 /**
- * @fileoverview Adds the acction to the get "starter buttton" in order to validate the email given by the user.
+ * @fileoverview Adds functionality to the "Get Starter" button, validating the email provided by the user.
+ * Displays feedback based on the email format validation.
  * @author Daniel Martinez Duque
  * @date 2024-08-04
  */
 
-(()=>{
-	document.getElementById("getAccess-bt").addEventListener('click',validateEmail,false);
-})()
-
 /**
-*Checks if the email address has a valid format.
-*/
-function validateEmail(){
+ * Validates if the email address provided by the user has a correct format.
+ * If the email is valid, displays a success message; otherwise, shows an error.
+ */
+const validateEmail=()=>{
 	var regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 	if(document.getElementById("getAccess-tf").value.match(regex)){
 		document.getElementById("getAcces-errorMsg").style.color = "#79f181";
@@ -22,3 +20,8 @@ function validateEmail(){
 		document.getElementById("getAcces-errorMsg").innerHTML = "Error, please check your email";
 	}
 }
+
+
+(()=>{
+	document.getElementById("getAccess-bt").addEventListener('click',validateEmail,false);
+})()

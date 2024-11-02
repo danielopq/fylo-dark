@@ -39,12 +39,6 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
-	cursor: pointer;
-	font-weight: 700;
-	text-decoration: underline;
-}
-
 input[type="button"] {
 	border: none;
 	color: white;
@@ -52,10 +46,18 @@ input[type="button"] {
 	background: linear-gradient(45deg, #63E1D9, #34A0CD)
 }
 
-input[type="button"]:hover {
-	cursor: pointer;
-	background: none;
-	background-color: #8ADAE3;
+@media(hover:hover) {
+	a:hover {
+		cursor: pointer;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+
+	input[type="button"]:hover {
+		cursor: pointer;
+		background: none;
+		background-color: #8ADAE3;
+	}
 }
 
 .flexRow {
@@ -81,16 +83,16 @@ header {
 }
 
 /*------------------- MENU -------------------*/
-menu {
+nav {
 	width: 1280px;
 	height: 52px;
-	margin-top: 73px;
+	margin: 73px 0px 0px;
 	padding: 0px;
 	justify-content: flex-end;
 	background: url("../images/logo.svg") left/176px no-repeat;
 }
 
-menu p {
+nav p {
 	height: 17px;
 	margin: auto 0px auto 58px;
 	font: 400 16px/52px 'Raleway';
@@ -275,11 +277,13 @@ main>div {
 	background: url("../images/icon-arrow.svg") right/14px no-repeat;
 }
 
-#sp-content-button:hover {
-	cursor: pointer;
-	color: white;
-	background-image: url("../images/icon-arrow-hover.svg");
-	border-bottom-color: white;
+@media(hover:hover) {
+	#sp-content-button:hover {
+		cursor: pointer;
+		color: white;
+		background-image: url("../images/icon-arrow-hover.svg");
+		border-bottom-color: white;
+	}
 }
 
 /*------------------- TESTIMONIALS -------------------*/
@@ -518,9 +522,11 @@ footer {
 	margin: 0px 0px 20px 0px;
 }
 
-#info-links p:hover {
-	cursor: pointer;
-	font-weight: 600;
+@media(hover:hover) {
+	#info-links p:hover {
+		cursor: pointer;
+		font-weight: 600;
+	}
 }
 
 #info-media {
@@ -537,33 +543,37 @@ footer {
 	margin: 0px 7px auto 0px;
 }
 
-#info-media>div:hover {
-	cursor: pointer;
-	border-color: #64E1D9;
+@media(hover:hover) {
+	#info-media>div:hover {
+		cursor: pointer;
+		border-color: #64E1D9;
+	}
 }
 
 #media-facebook {
 	background: url("../images/icon-facebook.svg") center/15px no-repeat;
 }
 
-#media-facebook:hover {
-	background-image: url("../images/icon-facebook-hover.svg");
-}
-
 #media-twitter {
 	background: url("../images/icon-twitter.svg") center/15px no-repeat;
-}
-
-#media-twitter:hover {
-	background-image: url("../images/icon-twitter-hover.svg");
 }
 
 #media-instagram {
 	background: url("../images/icon-instagram.svg") center/15px no-repeat;
 }
 
-#media-instagram:hover {
-	background-image: url("../images/icon-instagram-hover.svg");
+@media(hover:hover) {
+	#media-facebook:hover {
+		background-image: url("../images/icon-facebook-hover.svg");
+	}
+
+	#media-twitter:hover {
+		background-image: url("../images/icon-twitter-hover.svg");
+	}
+
+	#media-instagram:hover {
+		background-image: url("../images/icon-instagram-hover.svg");
+	}
 }
 
 /*############################################################################*/
@@ -576,7 +586,7 @@ footer {
 		width: 100vw;
 	}
 
-	menu {
+	nav {
 		width: calc(100vw - 48px);
 		height: 24px;
 		margin-top: 24px;
@@ -585,7 +595,7 @@ footer {
 		align-items: center;
 	}
 
-	menu p {
+	nav p {
 		margin: 0px 0px 0px 24px;
 		padding: 0px;
 		font: 400 12px/12px 'Raleway';
