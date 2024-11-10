@@ -10,7 +10,7 @@
 
 ## Overview
 
-I initially developed the website entirely for the desktop version. Once all elements were in place and aligned with the design requirements, I adapted it for mobile by implementing responsive styling with a single CSS media query.
+Frontend development of a landing page for a cloud storage website featuring a sleek, dark-themed design. The layout utilizes CSS Grid to organize key elements, achieving a balanced and visually appealing structure. Fully responsive, the website adapts seamlessly to various screen sizes, providing an optimal user experience on both desktop and mobile devices. The design focuses on usability and a modern aesthetic, enhancing engagement through intuitive navigation and clean, accessible content.  
 
 ### Screenshot
 
@@ -24,7 +24,7 @@ I initially developed the website entirely for the desktop version. Once all ele
 
 ## My process
 
-I created the website entirely for the desktop version. Once all of the elements were in place and met the design requirements, I adapted it to the mobile version using just a CSS media query.
+I initially developed the website entirely for the desktop version. Once all elements were in place and aligned with the design requirements, I adapted it for mobile by implementing responsive styling with a single CSS media query.
 
 ### Built with
 
